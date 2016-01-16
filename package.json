@@ -1,0 +1,19 @@
+{
+  "name": "bitbox-compiler",
+  "jspm": {
+    "registry": "jspm",
+    "main": "main.js",
+    "format": "es6",
+    "directories": {
+      "lib": "lib"
+    },
+    "dependencies": {
+      "js-beautify": "npm:js-beautify@^1.5.10"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  }
+}
